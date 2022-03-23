@@ -17,8 +17,6 @@ function splice_food(foods,x,y)
     console.log(foods);
 }
 splice_food(foods,2,0);
-
-
 //#3: Filter
 const numberArray= [12,324,213,4,2,3,45,4234];
 let isEven = (numberArray) => {
@@ -42,8 +40,6 @@ let prime = (numberArray) =>{
     console.log(p);
 };
 prime(numberArray);
-
-
 //#4: Reject
 function reject(numberArray)
 {
